@@ -26,7 +26,6 @@ function App() {
     <div className="App">
       <Form reqType={reqType} setReqType={setReqType} />
 
-      {/* <List items={items} /> */}
       <Table items={items} />
     </div>
   );
